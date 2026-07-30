@@ -1,4 +1,4 @@
-# sEEG preprocessing
+# Preprocessing sEEG Toolbox
 
 ## Install
 Python version 3.10.x <
