@@ -13,10 +13,9 @@ Make sure to set this repo as your current working directory, otherwise local im
 
 ### Filestructure
 
-- ./data: Raw data to be used for analysis. Data associated with the paper can be downloaded from (...).
-- ./documents: Related files (e.g., metadata).
+- ./data: Place here raw data to be used for analysis. Data associated with the paper can be downloaded from [10.17605/OSF.IO/867AG](https://doi.org/10.17605/OSF.IO/867AG).
+- ./documents: Related files (metadata).
 - ./figures: Figures outputted from the scripts.
-- ./libs: Python files that are useful the main scripts. For example: data loading, spectral band extraction, re-referencing methods, evaluation metrics.
+- ./libs: Python files that are useful for the main scripts. For example: data loading, spectral band extraction, re-referencing methods, evaluation metrics.
 - ./logs: Log files for each run of the main script.
-- ./output/*: Folder to direct any outputs from the code. Good to keep subfolders for each script that generates a (collection of) files.
-
+- ./output/*: Folder to direct any outputs from the code. The code creates a subfolder for each run of a script that generates a (collection of) files.
